@@ -1,0 +1,175 @@
+body{
+	margin: 10px;
+	padding-top: 5px;
+	background: silver;
+
+}
+
+
+
+header {
+	display: flex;
+	background-color: black;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+header, .container-1, .container-2, .card-container{
+
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+} 
+
+
+.main-text {
+	text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.main-image {
+	width: 100%;
+	padding-top: 35px;
+	margin: 5px;
+
+}
+.mission-container{
+	text-align: center;
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+}
+
+.testimonial-container{
+	text-align: center;
+    font-size: large;
+    padding: 24px;
+}
+
+.card {
+	width: 25%;
+}
+
+.card-container img {
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	margin: 15px;
+
+}
+.container-1 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 15px;
+	margin: 30px;
+	text-align: center;
+}
+
+nav{
+    background: black;
+    overflow: auto;
+    text-align: center;
+    padding-right: 40px;
+
+}
+
+ul{ 
+	display: flex;
+	font-size: 20px;
+	padding: 10;
+	list-style: none;
+}
+
+.logo{ 
+	ffont-family: Arial;
+    color: cadetblue;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+
+}
+
+nav a{
+	width: 100px;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+
+}
+
+nav a:hover {
+	background: red;
+	transition: 0.5s;
+	text-transform: uppercase;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	header {
+ 	display: block;
+ 	width: 100%;
+ }
+   body{
+   	background: silver;
+
+
+   }
+
+
+ ul{
+ 	display: block;
+ 	text-align: center;
+ 	justify-content: space-between;
+ }
+
+  .main-image{
+  display: block;
+	width: 100%;
+	height: auto;
+}
+	.container-1{ 
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: auto;
+	}
+	.logo{
+		text-align: center;
+		color: purple;
+		
+	}
+
+	.card{
+		width: 100%;
+		text-align: center;
+	}
+
+	
+	.container-2{
+		display: block;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.card-container{
+		display: block;
+		width: 100%;
+		text-align: center;
+
+	}
+}
+
+
+
+
